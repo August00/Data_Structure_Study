@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinarySearchTree<E extends Comparable<E>> {
@@ -163,6 +165,125 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
     }
 
+
+    //层序遍历
+    public void levelOrder(){
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            Node cur = queue.remove();
+            System.out.println(cur.data);
+            if(cur.left != null)
+                queue.add(cur.left);
+            if(cur.right != null)
+                queue.add(cur.right);
+        }
+
+    }
+
+    //查找以node为根节点的二分搜索树中的最小值的节点
+    public Node getMin(Node node){
+        Node cur = node;
+        if(node == null)
+            return null;
+        while(cur.left != null)
+            cur = cur.left;
+        return cur;
+    }
+
+    //查找以node为根节点的二分搜索树中的最大值的节点
+    public Node getMax(Node node){
+        Node cur = node;
+        if(node == null)
+            return null;
+        while(cur.right != null)
+            cur = cur.right;
+        return cur;
+    }
+
+
+    //删除最小值
+    public E removeMin(){
+        E ret = getMin(root).data;
+        root = removeMin(root);
+        return ret;
+    }
+
+    //删除以node为根节点的二分搜索树中的最小节点
+    //返回删除节点后的新的二分搜索树的根
+    private Node removeMin(Node node){
+        if(node.left == null){
+            Node cur = node.right;
+            node.right = null;
+            size--;
+            return cur;
+        }
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    //删除最小值
+    public E removeMax(){
+        E ret = getMax(root).data;
+        root = removeMax(root);
+        return ret;
+    }
+
+    //删除以node为根节点的二分搜索树中的最小节点
+    //返回删除节点后的新的二分搜索树的根
+    private Node removeMax(Node node){
+        if(node.right== null){
+            Node cur = node.left;
+            node.left = null;
+            size--;
+            return cur;
+        }
+        node.right = removeMin(node.right);
+        return node;
+    }
+
+    //从二分搜索树中删除元素为e的节点
+    public void remove(E e){
+        if(isEmpty())
+            throw new IndexOutOfBoundsException("BianrySearchTree is empty");
+        if(!contains(e))
+            throw new IllegalArgumentException("this element " + e + " is not in BST.");
+        root = remove(root,e);
+    }
+
+    //返回删除之后的新的二分搜索树的根
+    private Node remove(Node node,E e){
+        if(node == null)
+            return null;
+        if(e.compareTo(node.data) > 0){
+            node.right = remove(node.right,e);
+            return node;
+        }else if(e.compareTo(node.data) < 0) {
+            node.left = remove(node.left,e);
+            return node;
+        }else{
+            if(node.right == null) {
+                Node newleft = node.left;
+                node.left = null;
+                size--;
+                return newleft;
+            }
+            if(node.left == null) {
+                Node newright = node.right;
+                node.right = null;
+                size--;
+                return newright;
+            }
+            //用右子树中的最小值代替被删除的节点
+            Node successor = getMin(node.right);
+            //以下两句赋值的顺序不可错,若先赋值左子树
+            //在removeMin中就会判断该节点有左子树了,会造成oom.
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+            node.left = node.right = null;
+            return successor;
+        }
+    }
 
     @Override
     public String toString() {
