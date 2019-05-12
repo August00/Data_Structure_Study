@@ -143,6 +143,20 @@ public class LinkedList<E extends Comparable<E>> {
         return remove(size-1);
     }
 
+    public void removeElement(E e){
+        Node pre = dummyhead;
+        while(pre.next.data != null){
+            if(pre.next.data.equals(e))
+                break;
+            pre = pre.next;
+        }
+        if(pre.next != null){
+            Node delNode = pre.next;
+            pre.next = delNode.next;
+            delNode.next = null;
+        }
+    }
+
     public boolean isEmpty(){
         return dummyhead.next == null;
     }

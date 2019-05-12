@@ -1,7 +1,5 @@
 package LinkedList;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class LinkListDemo {
     public static void main(String[] args){
         LinkedList<Integer> ll = new LinkedList<Integer>();
