@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876ea5a7-fd14-4d21-b1d5-83af694d113c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Set/BinarySearchTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/LinkedListSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/SetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/BSTMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/MapDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,109 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Set/Set.java">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Set/BinarySearchTreeSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-              <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Set/LinkedListSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-              <folding>
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Queue/CompareTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Set/SetDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding>
-                <element signature="e#152#163#0" expanded="true" />
-                <element signature="e#398#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="60" column="80" lean-forward="true" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="80" />
+            <state relative-caret-position="571">
+              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,23 +26,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-555">
+              <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
               <folding>
-                <element signature="e#183#192#0" expanded="true" />
+                <element signature="e#3312#3313#0" expanded="true" />
+                <element signature="e#3360#3361#0" expanded="true" />
+                <element signature="e#3401#3402#0" expanded="true" />
+                <element signature="e#3480#3481#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
+                <element signature="e#3789#3790#0" expanded="true" />
+                <element signature="e#3835#3836#0" expanded="true" />
+                <element signature="e#3867#3868#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStack.java">
+        <entry file="file://$PROJECT_DIR$/src/Map/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Map/LinkedListMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1513">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -203,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkListDemo.java" />
         <option value="$PROJECT_DIR$/src/Set/SetDemo.java" />
+        <option value="$PROJECT_DIR$/src/Map/MapDemo.java" />
+        <option value="$PROJECT_DIR$/src/Map/BSTMap.java" />
       </list>
     </option>
   </component>
@@ -219,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,6 +152,12 @@
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
@@ -270,13 +191,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557647854357" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558861159007" />
     <property name="last_opened_file_path" value="$USER_HOME$/wjgit/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -300,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetDemo">
+  <component name="RunManager" selected="Application.MapDemo">
     <configuration name="BSTDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BSTDemo" />
       <module name="DS" />
@@ -340,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListStcakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.LinkedListStcakDemo" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.MapDemo" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.BSTDemo" />
         <item itemvalue="Application.LinkListDemo" />
         <item itemvalue="Application.Compare" />
-        <item itemvalue="Application.LinkedListStcakDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -397,17 +317,18 @@
       <workItem from="1556816031731" duration="343000" />
       <workItem from="1556853744742" duration="14036000" />
       <workItem from="1557632495707" duration="4989000" />
+      <workItem from="1558853403477" duration="8016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89901000" />
+    <option name="totallyTimeSpent" value="97917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49265906" visible="true" weight="0.24069676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49265906" visible="true" weight="0.24465558" />
       <window_info id="Structure" order="1" sideWeight="0.50734097" side_tool="true" weight="0.24069676" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,7 +347,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3284553" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32789558" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4400">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays/Array.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -628,37 +539,7 @@
     <entry file="file://$PROJECT_DIR$/src/Set/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/BSTDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Set/BinarySearchTreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -681,30 +562,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="80" lean-forward="true" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="80" />
+        <state relative-caret-position="840">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/CompareTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#183#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -715,31 +587,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="1140">
+          <caret line="60" column="80" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="80" />
           <folding>
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue/CompareTime.java">
+    <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStcakDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LinkedListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Set/SetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="120">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
             <element signature="e#152#163#0" expanded="true" />
-            <element signature="e#398#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map/LinkedListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map/MapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BSTDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Set/BinarySearchTreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+          <folding>
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3360#3361#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+            <element signature="e#3789#3790#0" expanded="true" />
+            <element signature="e#3835#3836#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
           </folding>
         </state>
       </provider>
