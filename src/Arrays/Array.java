@@ -93,6 +93,14 @@ public class Array<E> {
         arr = data;
     }
 
+    public void swap(int i,int j){
+        if(i<0 || i>=size || j<0 || j>=size){
+            throw new IllegalArgumentException("INDEX IS ILLEGAL");
+        }
+        E temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 
     public String toString(){
         StringBuilder res = new StringBuilder();
