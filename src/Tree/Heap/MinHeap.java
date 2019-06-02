@@ -13,6 +13,13 @@ public class MinHeap <E extends Comparable<E>>{
         data = new Array<>();
     }
 
+    public MinHeap(E[] arr){
+        data = new Array<>(arr);
+        for(int i = parent(data.getSize()-1);i>0;i--){
+            siftDown(i);
+        }
+    }
+
     public int size(){
         return data.getSize();
     }
@@ -48,11 +55,16 @@ public class MinHeap <E extends Comparable<E>>{
         }
     }
 
-    public E extractMin(){
+    private E findMin(){
         if(data.getSize() == 0){
             throw new IllegalArgumentException("heap is empty");
         }
-        E min = data.get(0);
+        return data.get(0);
+    }
+
+    public E extractMin(){
+
+        E min = findMin();
         data.swap(0,data.getSize()-1);
         data.removeLast();
         siftDown(0);
@@ -75,4 +87,15 @@ public class MinHeap <E extends Comparable<E>>{
         }
     }
 
+    //get the minimum and replace it to e
+    public E replace(E e){
+        E min = findMin();
+        data.set(0,e);
+        siftDown(0);
+        return min;
+    }
+
+    public void Heapify(){
+
+    }
 }
