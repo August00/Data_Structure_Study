@@ -55,7 +55,7 @@ public class MinHeap <E extends Comparable<E>>{
         }
     }
 
-    private E findMin(){
+    public E findMin(){
         if(data.getSize() == 0){
             throw new IllegalArgumentException("heap is empty");
         }
@@ -95,7 +95,4 @@ public class MinHeap <E extends Comparable<E>>{
         return min;
     }
 
-    public void Heapify(){
-
-    }
 }
