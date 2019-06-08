@@ -39,11 +39,18 @@ public class BSTDemo {
         //测试平衡二叉树
         int[] arr2 ={7,5,6};
         AVLTree<Integer> at = new AVLTree<>();
-        for(int num : arr2){
+        for(int num : arr){
             at.add(num);
         }
         System.out.println("isBST :"+at.isBST());
         System.out.println("isBalance :"+at.isBalanced());
         System.out.println(at);
+
+        for(int n:arr){
+            at.remove(n);
+            if(!at.isBST() || !at.isBalanced()){
+                throw new RuntimeException("error");
+            }
+        }
     }
 }
