@@ -1,7 +1,6 @@
 package Tree;
 
 
-
 public class BSTDemo {
     public static void main(String[] args){
         BinarySearchTree<Integer> bt = new BinarySearchTree<>();
@@ -52,5 +51,15 @@ public class BSTDemo {
                 throw new RuntimeException("error");
             }
         }
+
+
+        //测试红黑树
+        int[] arr3 ={7,5,6,8};
+        RBTree<Integer, Integer> rbt = new RBTree<>();
+        for(int num : arr3){
+            rbt.add(num,null);
+        }
+        System.out.println(rbt);
+
     }
 }

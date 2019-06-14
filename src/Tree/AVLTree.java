@@ -157,10 +157,13 @@ public class AVLTree<E extends Comparable<E>> {
         if(node == null){
             size ++;
             return new Node(element);
-        }else if(element.compareTo(node.data)<0)
+        }
+        if(element.compareTo(node.data)<0)
             node.left = add(node.left,element);
         else if(element.compareTo(node.data)>0)
             node.right = add(node.right,element);
+        else
+            node.data = element;
         //更新该节点的height
         if((node.height == (1 + Math.max(getHeight(node.left),getHeight(node.right)))
                 && (Math.abs(getBalanceFactor(node))<=1))){
