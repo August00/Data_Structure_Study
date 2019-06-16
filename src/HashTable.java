@@ -7,6 +7,11 @@ public class HashTable<K,V> {
             1572869, 3145739, 6291469, 12582917, 25165843, 50331653,
             100663319, 201326611, 402653189, 805306457, 1610612741
     };
+    /*此处用treemap(底层实现为红黑树)作为数组中的元素来实现，有一个问题：
+    java8之后，当哈希表bucket中的链表元素数量大于某一个值(8)时，就会将链表转化成红黑树形式，
+    但是这其实有一个隐藏的限制条件就是能转化成红黑树的情况是需要K为可比较的对象（extends comparable）
+    而为什么用红黑树而不用AVL树，可以去百度，总的来说就是因为红黑树的统计性能更优。
+    */
     private TreeMap<K,V>[] hashTable;
     private static final int upperTol = 10;
     private static final int lowerTol = 2;
